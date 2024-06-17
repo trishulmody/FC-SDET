@@ -34,7 +34,7 @@ It has 2 implementations:
 
 5. **Check Reports**
 - Cucumber Report : reports/cucumber-reports.html  
-![img.png](FC-SDET/img.png/img.png)  
+![img.png](FC-SDET/img.png)  
 
 - Extent Report : reports/extentReport.html
-![img_1.png](FC-SDET/img_1.pngmg_1.png)  
+![img_1.png](FC-SDET/img_1.png)  
