@@ -17,8 +17,8 @@ It has 2 implementations:
 
 1. **Clone the repository**
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/trishulmody/FC-SDET.git
+    cd FC-SDET
     ```
 
 2. **Resolve dependencies**
