@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.492">
+    <testcase classname="Verify User Completion Percentage" name="All the users of City `FanCode` should have more than half of their todos task completed." time="2.361">
+        <system-out><![CDATA[Given User has the todo tasks...............................................passed
+And User belongs to the city FanCode........................................passed
+Then User Completed task percentage should be greater than 50%..............passed
+]]></system-out>
+    </testcase>
+</testsuite>
