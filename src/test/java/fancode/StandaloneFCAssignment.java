@@ -56,9 +56,6 @@ public class StandaloneFCAssignment
         List<Integer> fancodeUserIds = getFancodeUserIds();
         fc_user_count = fancodeUserIds.size();
         et.log(Status.INFO, "Total FanCode Users: " + fc_user_count);
-
-        System.out.println("totalFancodeUsers = " + fc_user_count);
-
         Assert.assertFalse(fancodeUserIds.isEmpty(), "No users found in FanCode city");
 
         for (Integer userId : fancodeUserIds) {
@@ -101,21 +98,13 @@ public class StandaloneFCAssignment
 
         boolean isMoreThan50Percent = completionPercentage > 50;
         et.log(Status.INFO, "User ID " + userId + " has " + completionPercentage + "% tasks completed");
-
-        System.out.println("User ID " + userId + " has " + completionPercentage + "% tasks completed");
-
         return isMoreThan50Percent;
     }
 
     private void printReport() {
         // Print report
         et.log(Status.INFO, "Total FanCode Users with > 50% completed tasks: " + fcUsersWithMoreThan50PercentTodos);
-
-        System.out.println("Total FanCode Users with > 50% completed tasks: " + fcUsersWithMoreThan50PercentTodos);
-
         et.log(Status.INFO, "Total FanCode Users with <= 50% completed tasks: " + fcUsersWithLessThan50PercentTodos);
-
-        System.out.println("Total FanCode Users with <= 50% completed tasks: " + fcUsersWithLessThan50PercentTodos);
     }
 
     @AfterClass

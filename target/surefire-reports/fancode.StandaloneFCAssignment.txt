@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: fancode.StandaloneFCAssignment
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.009 s - in fancode.StandaloneFCAssignment
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.543 s - in fancode.StandaloneFCAssignment
